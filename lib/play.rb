@@ -61,9 +61,15 @@ end
 #the meat!
 def play(board)
  i = 0
+<<<<<<< HEAD
  while i < 9
  i += 1
   turn(board)
+=======
+ while i <= board.length 
+  turn(board)
+  i+=1
+>>>>>>> d676b8e444c937aa1b81e4eea5dde919a58de48d
   end
   puts "Game over! Thanks for playing."
 end
